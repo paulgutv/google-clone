@@ -75,6 +75,7 @@ nav span {
 nav p {
     font-size: var(--sm);
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
 }
 nav p:hover {
     text-decoration: underline;
