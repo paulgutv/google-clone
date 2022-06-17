@@ -114,9 +114,18 @@ main {
 .barra span {
     margin-left: 1.4rem;
 }
-.barra img {
+.barra div img {
     width: 1.4rem;
-    margin-right: 2.1rem;
+}
+.barra div {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 0.8rem;
+
+}
+.barra div:hover {
+    cursor: pointer;
 }
 .botones {
     display: flex;
