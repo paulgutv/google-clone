@@ -114,6 +114,14 @@ main {
 .barra span {
     margin-left: 1.4rem;
 }
+.barra input {
+    border: 0;
+    outline: 0;
+    width: 47.4rem;
+    font-size: 1.59rem;
+    font-weight: 100;
+    color: #212121;
+}
 .barra div img {
     width: 1.4rem;
 }
