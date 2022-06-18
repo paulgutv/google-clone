@@ -112,6 +112,7 @@ main {
 }
 .barra span {
     margin-left: 1.4rem;
+    cursor: default;
 }
 .barra input {
     border: 0;
