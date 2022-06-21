@@ -130,7 +130,9 @@ main {
     width: 4rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 0.8rem;
+    height: 4.6rem;
 }
 .barra div:hover {
     cursor: pointer;
