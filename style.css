@@ -85,9 +85,10 @@ nav p:hover {
 main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 93.6vh;
     align-items: center;
     margin-bottom: auto;
+    /* border: 1px solid; */
 }
 .first-div {
     width: 100%;
@@ -95,7 +96,8 @@ main {
 }
 .last-div {
     width: 100%;
-    min-height: 34.1rem;
+    min-height: 29.5rem;
+    /* border: 1px solid; */
 }
 .logo {
     width: 27.2rem;
