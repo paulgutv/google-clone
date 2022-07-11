@@ -85,14 +85,20 @@ nav p:hover {
 main {
     display: flex;
     flex-direction: column;
-    height: 85.4vh;
+    height: 100vh;
     align-items: center;
-    flex: 1;
+    margin-bottom: auto;
 }
-
+.first-div {
+    width: 100%;
+    height: 21.2rem;
+}
+.last-div {
+    width: 100%;
+    min-height: 34.1rem;
+}
 .logo {
     width: 27.2rem;
-    margin-top: 21.2rem;
     margin-bottom: 2.6rem;
 }
 .barra {
@@ -172,6 +178,7 @@ main {
     color: #3C4043;
     display: flex;
     margin-right: 0.3rem;
+    margin-bottom: 2.4rem;
 }
 .idiomas a {
     text-decoration: none;
@@ -182,13 +189,15 @@ main {
 }
 .idiomas :nth-child(2) {
     margin-left: 0.65rem;
-    margin-right: 0.95rem;
 }
 footer {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 footer p {
     font-size: var(--md);
